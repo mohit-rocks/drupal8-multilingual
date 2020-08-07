@@ -1,0 +1,10 @@
+uuid: 41c0bc46-195a-4e09-ae3f-6867fddf2e4d
+langcode: en
+status: true
+dependencies: {  }
+id: accordion_item
+label: 'Accordion Item'
+icon_uuid: null
+icon_default: null
+description: 'Accordion item paragraph is used to create accordion values along with necessary fields like title, body, image etc.'
+behavior_plugins: {  }

@@ -1,0 +1,10 @@
+uuid: e68edd4b-f0ba-4785-b84f-715ec169b768
+langcode: en
+status: true
+dependencies: {  }
+id: accordion
+label: Accordion
+icon_uuid: null
+icon_default: null
+description: 'Accordion Paragraph.'
+behavior_plugins: {  }

@@ -1,0 +1,26 @@
+name: drupal-8-multilingual
+recipe: drupal8
+services:
+  appserver:
+    type: 'php:7.4'
+    via: nginx
+    config:
+      php: .lando/php.ini
+  database:
+    type: 'mariadb:10.4'
+    app_mount: disabled
+    overrides:
+      image: 'bitnami/mariadb:10.4'
+tooling:
+  drush:
+    service: appserver
+    cmd: /app/vendor/bin/drush
+  drupal:
+    service: appserver
+    cmd: /app/vendor/bin/drupal
+  phpunit:
+    service: appserver
+    cmd: /app/vendor/bin/phpunit
+config:
+  webroot: web
+  via: nginx

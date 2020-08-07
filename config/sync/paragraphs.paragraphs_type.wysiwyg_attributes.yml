@@ -1,0 +1,10 @@
+uuid: 18f40337-00bb-4a1f-8381-14cdec5857dc
+langcode: en
+status: true
+dependencies: {  }
+id: wysiwyg_attributes
+label: 'WYSIWYG Attributes'
+icon_uuid: null
+icon_default: null
+description: 'Simple paragraph with title and a body field to have additional attributes.'
+behavior_plugins: {  }

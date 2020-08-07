@@ -1,0 +1,14 @@
+uuid: 719f4a29-689e-46b5-b1fe-2d3a4046308e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.author
+  module:
+    - user
+id: user_remove_role_action.author
+label: 'Remove the Author role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: author

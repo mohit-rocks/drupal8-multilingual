@@ -1,0 +1,21 @@
+uuid: ea374c07-ef86-400e-b4e9-6ba452132b59
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_recipe_instruction
+    - node.type.advanced_recipe
+  module:
+    - text
+id: node.advanced_recipe.field_recipe_instruction
+field_name: field_recipe_instruction
+entity_type: node
+bundle: advanced_recipe
+label: 'Recipe instruction'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,39 @@
+uuid: c1d61638-3ace-440d-b010-be82f822f21e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_recipe_additional_info
+    - node.type.advanced_recipe
+    - paragraphs.paragraphs_type.accordion
+    - paragraphs.paragraphs_type.wysiwyg_attributes
+  module:
+    - entity_reference_revisions
+id: node.advanced_recipe.field_recipe_additional_info
+field_name: field_recipe_additional_info
+entity_type: node
+bundle: advanced_recipe
+label: 'Additional Information'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      accordion: accordion
+      wysiwyg_attributes: wysiwyg_attributes
+    target_bundles_drag_drop:
+      accordion:
+        enabled: true
+        weight: 5
+      accordion_item:
+        weight: 4
+        enabled: false
+      wysiwyg_attributes:
+        enabled: true
+        weight: 6
+field_type: entity_reference_revisions

@@ -1,0 +1,23 @@
+uuid: 644f57f7-e435-480b-bb9a-0ba047796fe3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_preparation_time
+    - node.type.advanced_recipe
+id: node.advanced_recipe.field_preparation_time
+field_name: field_preparation_time
+entity_type: node
+bundle: advanced_recipe
+label: 'Preparation time'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' minutes'
+field_type: integer

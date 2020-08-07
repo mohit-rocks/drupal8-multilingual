@@ -1,0 +1,49 @@
+uuid: 34746b56-5288-4b82-9d67-8d52c736f8f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.advanced_recipe.body
+    - field.field.node.advanced_recipe.field_cooking_time
+    - field.field.node.advanced_recipe.field_difficulty
+    - field.field.node.advanced_recipe.field_ingredients
+    - field.field.node.advanced_recipe.field_media_image
+    - field.field.node.advanced_recipe.field_number_of_servings
+    - field.field.node.advanced_recipe.field_preparation_time
+    - field.field.node.advanced_recipe.field_recipe_additional_info
+    - field.field.node.advanced_recipe.field_recipe_category
+    - field.field.node.advanced_recipe.field_recipe_instruction
+    - node.type.advanced_recipe
+  module:
+    - text
+    - user
+id: node.advanced_recipe.teaser
+targetEntityType: node
+bundle: advanced_recipe
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_cooking_time: true
+  field_difficulty: true
+  field_ingredients: true
+  field_media_image: true
+  field_number_of_servings: true
+  field_preparation_time: true
+  field_recipe_additional_info: true
+  field_recipe_category: true
+  field_recipe_instruction: true
+  langcode: true

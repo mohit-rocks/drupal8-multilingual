@@ -1,0 +1,18 @@
+uuid: f1d6d304-6d84-44b1-bd7f-8a29b8d7ee24
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Advanced Recipe'
+type: advanced_recipe
+description: "Advanced Recipe content type for demonstration purposes.\r\nIt contains various paragraphs like an accordion, WYSIWYG, and other necessary fields."
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

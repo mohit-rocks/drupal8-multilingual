@@ -1,0 +1,31 @@
+uuid: 71a6a6b7-debc-423d-b1ab-25e60a3c056f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.wysiwyg_attributes.field_body
+    - field.field.paragraph.wysiwyg_attributes.field_title
+    - paragraphs.paragraphs_type.wysiwyg_attributes
+  module:
+    - text
+id: paragraph.wysiwyg_attributes.default
+targetEntityType: paragraph
+bundle: wysiwyg_attributes
+mode: default
+content:
+  field_body:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

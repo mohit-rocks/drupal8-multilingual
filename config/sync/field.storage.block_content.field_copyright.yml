@@ -1,0 +1,21 @@
+uuid: 05d08349-c55b-46d2-aa29-c6393dac3a7b
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+_core:
+  default_config_hash: i5Xb6gz5HGbpayPD3Wf-JLpoFa0pxqKpHsCIqYYH63I
+id: block_content.field_copyright
+field_name: field_copyright
+entity_type: block_content
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,18 @@
+uuid: e73e33e5-2408-4e6f-8393-4663fdf7273e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.advanced_recipe
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.advanced_recipe
+target_entity_type_id: node
+target_bundle: advanced_recipe
+default_langcode: site_default
+language_alterable: true

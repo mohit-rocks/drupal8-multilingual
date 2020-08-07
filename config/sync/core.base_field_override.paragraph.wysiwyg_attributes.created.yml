@@ -1,0 +1,18 @@
+uuid: 5e2870d1-cea6-4870-968b-498849690267
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.wysiwyg_attributes
+id: paragraph.wysiwyg_attributes.created
+field_name: created
+entity_type: paragraph
+bundle: wysiwyg_attributes
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created
