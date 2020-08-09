@@ -1,0 +1,31 @@
+add recipe review entities:
+  title: 'Create new Recipe review entities'
+
+administer recipe review entities:
+  title: 'Administer Recipe review entities'
+  description: 'Allow to access the administration form to configure Recipe review entities.'
+  restrict access: true
+
+delete recipe review entities:
+  title: 'Delete Recipe review entities'
+
+edit recipe review entities:
+  title: 'Edit Recipe review entities'
+
+view published recipe review entities:
+  title: 'View published Recipe review entities'
+
+view unpublished recipe review entities:
+  title: 'View unpublished Recipe review entities'
+
+view all recipe review revisions:
+  title: 'View all Recipe review revisions'
+
+revert all recipe review revisions:
+  title: 'Revert all Recipe review revisions'
+  description: 'Role requires permission <em>view Recipe review revisions</em> and <em>edit rights</em> for recipe review entities in question or <em>administer recipe review entities</em>.'
+
+delete all recipe review revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Recipe review revisions</em> and <em>delete rights</em> for recipe review entities in question or <em>administer recipe review entities</em>.'
+

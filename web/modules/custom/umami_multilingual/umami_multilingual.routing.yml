@@ -1,0 +1,9 @@
+umami_multilingual.admin_config_form:
+  path: '/admin/config/umami_multilingual/adminconfig'
+  defaults:
+    _form: '\Drupal\umami_multilingual\Form\AdminConfigForm'
+    _title: 'Umami Configuration Form'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

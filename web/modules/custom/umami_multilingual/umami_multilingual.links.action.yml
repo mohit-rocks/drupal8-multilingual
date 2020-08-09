@@ -1,0 +1,5 @@
+entity.recipe_review.add_form:
+  route_name: entity.recipe_review.add_form
+  title: 'Add Recipe review'
+  appears_on:
+    - entity.recipe_review.collection

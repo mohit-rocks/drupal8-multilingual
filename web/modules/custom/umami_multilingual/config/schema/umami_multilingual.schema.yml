@@ -1,0 +1,10 @@
+umami_multilingual.adminconfig:
+  type: config_object
+  label: 'Umami Multilingual basic config'
+  mapping:
+    help_text:
+      type: text
+      label: 'Help Text'
+    default_description:
+      type: text
+      label: 'Default Description'

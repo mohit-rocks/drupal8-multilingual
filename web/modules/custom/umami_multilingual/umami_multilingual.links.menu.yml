@@ -1,0 +1,20 @@
+
+# Recipe review menu items definition
+entity.recipe_review.collection:
+  title: 'Recipe review list'
+  route_name: entity.recipe_review.collection
+  description: 'List Recipe review entities'
+  parent: system.admin_structure
+  weight: 100
+
+recipe_review.admin.structure.settings:
+  title: 'Recipe review settings'
+  description: 'Configure Recipe review entities'
+  route_name: recipe_review.settings
+  parent: system.admin_structure
+umami_multilingual.admin_config_form:
+  title: 'Umami Configuration'
+  route_name: umami_multilingual.admin_config_form
+  description: 'Configuration form for the Umami'
+  parent: system.admin_config_system
+  weight: 99

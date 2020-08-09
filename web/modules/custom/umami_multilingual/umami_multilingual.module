@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains umami_multilingual.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function umami_multilingual_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the umami_multilingual module.
+    case 'help.page.umami_multilingual':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Sample module to show the multilingual capabilities of Drupal.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

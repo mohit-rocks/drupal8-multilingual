@@ -1,0 +1,7 @@
+umami_multilingual.admin_config_form:
+  title: 'Umami Configuration Form'
+  # base_route_name is the route that provides configuration form.
+  base_route_name: umami_multilingual.admin_config_form
+  # names should contain all the configuration keys in "umami_multilingual.schema.yml"
+  names:
+    - umami_multilingual.adminconfig

@@ -1,0 +1,5 @@
+name: 'Umami Multilingual'
+type: module
+description: 'Sample module to show the multilingual capabilities of Drupal.'
+core: 8.x
+package: 'Umami'

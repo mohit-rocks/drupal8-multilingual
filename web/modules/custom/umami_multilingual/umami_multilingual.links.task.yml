@@ -1,0 +1,31 @@
+# Recipe review routing definition
+recipe_review.settings_tab:
+  route_name: recipe_review.settings
+  title: 'Settings'
+  base_route: recipe_review.settings
+
+entity.recipe_review.canonical:
+  route_name: entity.recipe_review.canonical
+  base_route: entity.recipe_review.canonical
+  title: 'View'
+
+entity.recipe_review.edit_form:
+  route_name: entity.recipe_review.edit_form
+  base_route: entity.recipe_review.canonical
+  title: 'Edit'
+
+entity.recipe_review.version_history:
+  route_name: entity.recipe_review.version_history
+  base_route: entity.recipe_review.canonical
+  title: 'Revisions'
+
+entity.recipe_review.delete_form:
+  route_name:  entity.recipe_review.delete_form
+  base_route:  entity.recipe_review.canonical
+  title: Delete
+  weight: 10
+
+umami_multilingual.admin_settings_tab:
+  route_name: umami_multilingual.admin_config_form
+  title: 'Umami Settings'
+  base_route: umami_multilingual.admin_config_form

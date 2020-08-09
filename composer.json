@@ -12,9 +12,11 @@
         "drupal/core-composer-scaffold": "^8.9.0",
         "drupal/core-recommended": "^8.9.0",
         "drupal/paragraphs": "^1.12",
+        "drupal/select_translation": "^1.0",
         "drush/drush": "^9.7.1 | ^10.0",
         "vlucas/phpdotenv": "^5.0",
-        "zaporylie/composer-drupal-optimizations": "^1.1"
+        "zaporylie/composer-drupal-optimizations": "^1.1",
+        "drupal/console": "~1.0"
     },
     "require-dev": {
         "axelerant/db-docker": "^1.0",
