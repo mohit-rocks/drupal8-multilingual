@@ -1,14 +1,10 @@
-uuid: 25d3d70e-3ca0-4163-b3c8-978f17dd4e44
+uuid: eb6b8960-fe3b-4a7d-a97e-5c5c4bdd4101
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:footer_promo_block:924ab293-8f5f-45a1-9c7f-2423ae61a241'
   enforced:
     module:
       - demo_umami_content
-  module:
-    - block_content
   theme:
     - umami
 _core:

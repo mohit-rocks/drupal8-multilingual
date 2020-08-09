@@ -43,12 +43,14 @@ module:
   rdf: 0
   responsive_image: 0
   search: 0
+  select_translation: 0
   shortcut: 0
   system: 0
   taxonomy: 0
   text: 0
   toolbar: 0
   tour: 0
+  umami_multilingual: 0
   update: 0
   user: 0
   views_ui: 0
