@@ -11,6 +11,12 @@ services:
     app_mount: disabled
     overrides:
       image: 'bitnami/mariadb:10.4'
+  search:
+    type: solr:8
+    core: umami
+    portforward: true
+    config:
+      dir: solr-conf-templates/8.x
 tooling:
   drush:
     service: appserver
@@ -24,3 +30,6 @@ tooling:
 config:
   webroot: web
   via: nginx
+proxy:
+  search:
+    - admin.solr.lndo.site:8983

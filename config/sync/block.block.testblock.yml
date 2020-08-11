@@ -1,0 +1,20 @@
+uuid: d47ce34b-0c77-430d-8d5c-19c3b47957b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - umami_multilingual
+  theme:
+    - umami
+id: testblock
+theme: umami
+region: footer
+weight: 0
+provider: null
+plugin: test_block
+settings:
+  id: test_block
+  label: 'Test block'
+  provider: umami_multilingual
+  label_display: visible
+visibility: {  }
