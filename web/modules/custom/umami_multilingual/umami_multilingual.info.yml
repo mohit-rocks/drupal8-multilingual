@@ -3,3 +3,6 @@ type: module
 description: 'Sample module to show the multilingual capabilities of Drupal.'
 core: 8.x
 package: 'Umami'
+
+interface translation project: umami_multilingual
+interface translation server pattern: modules/custom/umami_multilingual/translations/%language.po

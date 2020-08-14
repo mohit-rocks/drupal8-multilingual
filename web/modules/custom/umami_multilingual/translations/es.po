@@ -1,0 +1,10 @@
+# Umami Multilingual translations for Spanish language.
+
+msgid "Hello World"
+msgstr "Hola Mundo"
+
+msgid "Default help text"
+msgstr "Texto de ayuda predeterminado"
+
+msgid "Default description for the recipe"
+msgstr "Descripción predeterminada de la receta"
