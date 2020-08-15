@@ -1,1 +1,3 @@
-umami_multilingual:
+umami_multilingual: null
+help_text: 'Hello World'
+default_description: 'Default Description'
