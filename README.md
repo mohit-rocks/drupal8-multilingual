@@ -13,3 +13,9 @@ Project is using standard Drupal site setup.
 - Once we are done with the setup, we can uninstall and install demo_umami_content module to create the content.
 
 # Solr Search
+- Solr search is out of box provided by the search_api_solr module.
+- Configuration related to solr are kept on "solr-config-templates" directory.
+
+# Custom code
+- umami_multilingual module contains code and related artifacts that are discussed in the session.
+- It contains configuration form, content entity translation, configuration translation and other things that developers can implement using multilingual API
