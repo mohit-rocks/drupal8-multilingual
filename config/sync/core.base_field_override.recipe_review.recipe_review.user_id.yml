@@ -1,0 +1,20 @@
+uuid: 4d28eb25-ffb7-423f-8cc2-edde8fc62003
+langcode: en
+status: true
+dependencies:
+  module:
+    - umami_multilingual
+id: recipe_review.recipe_review.user_id
+field_name: user_id
+entity_type: recipe_review
+bundle: recipe_review
+label: 'Authored by'
+description: 'The user ID of author of the Recipe review entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,17 @@
+uuid: 41632e0e-2f0f-4b01-bbba-66dd6b65c2be
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_translation
+    - umami_multilingual
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: recipe_review.recipe_review
+target_entity_type_id: recipe_review
+target_bundle: recipe_review
+default_langcode: site_default
+language_alterable: false

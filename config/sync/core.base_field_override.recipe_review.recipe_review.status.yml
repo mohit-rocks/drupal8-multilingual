@@ -1,0 +1,22 @@
+uuid: 490fa5da-d02b-4e16-8277-79a6017ec088
+langcode: en
+status: true
+dependencies:
+  module:
+    - umami_multilingual
+id: recipe_review.recipe_review.status
+field_name: status
+entity_type: recipe_review
+bundle: recipe_review
+label: Published
+description: 'A boolean indicating whether the Recipe review is published.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
