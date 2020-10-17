@@ -17,6 +17,10 @@ services:
     portforward: true
     config:
       dir: solr-conf-templates/8.x
+  phpmyadmin:
+    type: phpmyadmin
+    hosts:
+      - database
 tooling:
   drush:
     service: appserver
